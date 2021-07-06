@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login & Register</title>
+</head>
+
+<body id="bod">
+    <div class="container">
+        <div class="heading">
+            <div class="login title">Welcome Back</div>
+            <div class="signUp title">Become A Member</div>
+        </div>
+        <div class="formBox">
+            <div class="changeForm">
+                <input type="radio" name="slider" id="log" checked>
+                <input type="radio" name="slider" id="sign">
+                <label for="log" class="change login">Login</label>
+                <label for="sign" class="change signUp">Sign Up</label>
+                <div class="changeTab" id="tab"></div>
+            </div>
+            <div class="inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required minlength="5" maxlength="12">
+                    </div>
+                    <div class="forgot"><a href="#">Forgot Your Password?</a></div>
+                    <div class="field">
+                        <input type="submit" placeholder="Login">
+                    </div>
+                    <div class="google" id="gle">
+                        <img src="search.png" alt="icon">
+                        <p>Login With Google</p>
+                    </div>
+                    <div class="secondSwitch">
+                        <p>Don't have an account? <a href="#" id="secSwitch">Sign Up</a></p>
+                    </div>
+                </form>
+
+                <form action="#" class="signUp" onsubmit="verifyPass()">
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required minlength="5" maxlength="12" id="pass">
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm Password" required minlength="5" maxlength="12"
+                            id="conpass">
+                    </div>
+                    <div class="field">
+                        <input type="submit" placeholder="Sign Up">
+                    </div>
+                    <div class="wordWithLine">
+                        <span class="text">or</span>
+                    </div>
+                    <div class="google" id="gle">
+                        <img src="search.png" alt="icon">
+                        <p>Sign Up With Google</p>
+                    </div>
+                    <div class="declare">
+                        <h6>By signing up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and
+                            <a href="#">Cookie Policy</a>.
+                        </h6>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="myscript.js"> </script>
+</body>
+
+</html>
