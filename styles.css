@@ -15,15 +15,32 @@ body{
     place-items: center;
     background-color: #f2f2f2;
     transition: 0.6s;
+    overflow: hidden;
+}
+
+#circle{
+    display: grid;
+    place-items: center;
+    width: 200%;
+    height: 200%;
+    background: -webkit-linear-gradient(left,#4361ee,#4cc9f0);
+    border-radius: 50%;
+    transition: all 0.4s linear;
+    z-index: 1;
+    position: absolute;
+    transform: translate(-25%,-25%);
+    overflow: hidden;
 }
 
 .container{
     max-width: 390px;
+    place-items: center;
     background: #fff;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 15px 20px rgba(0,0,0,0.15);
     overflow: hidden;
+    z-index: 10;
 }
 
 .container .heading{
