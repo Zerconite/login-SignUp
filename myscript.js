@@ -24,7 +24,7 @@ signUpBtn.onclick = (() => {
 loginBtn.onclick = (() => {
     loginForm.style.marginLeft = "0%";
     loginTitle.style.marginLeft = "0%";
-    // back.style.background = '-webkit-linear-gradient(left,#4361ee,#4cc9f0)';
+    back.style.background = '-webkit-linear-gradient(left,#4361ee,#4cc9f0)';
     tab.style.background = '-webkit-linear-gradient(right,#4361ee,#4cc9f0)';
     // circle.style.background = '-webkit-linear-gradient(left,#f72585,#7209b7)';
     circle.style.marginLeft = "0";
