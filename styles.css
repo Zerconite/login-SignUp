@@ -23,7 +23,7 @@ body{
     place-items: center;
     width: 200%;
     height: 200%;
-    background: -webkit-linear-gradient(left,#4361ee,#4cc9f0);
+    background: red;
     border-radius: 50%;
     transition: all 0.4s linear;
     z-index: 1;
