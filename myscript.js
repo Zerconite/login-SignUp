@@ -16,7 +16,7 @@ signUpBtn.onclick = (() => {
     loginTitle.style.marginLeft = "-50%";
     back.style.background = '-webkit-linear-gradient(right,#f72585,#7209b7)';
     tab.style.background = '-webkit-linear-gradient(left,#f72585,#7209b7)';
-    circle.style.background = '-webkit-linear-gradient(right,#4361ee,#4cc9f0)';
+    circle.style.background = '-webkit-linear-gradient(left,#4361ee,#4cc9f0)';
     circle.style.marginLeft = "125%";
     circle.style.marginTop = "75%";
 });
